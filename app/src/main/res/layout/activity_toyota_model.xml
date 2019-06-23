@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#03c7b1"
+    android:layout_height="match_parent"
+    tools:context=".ToyotaModel">
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="#04ea00"
+        android:textSize="20dp"
+        android:text="Position"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#04ea00"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:text="Name"/>
+
+</LinearLayout>

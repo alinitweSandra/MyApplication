@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#03c7b1"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/tsap">
+
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_launcher_foreground"
+            android:textColor="@android:color/white"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/password"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_launcher_foreground"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/logIn"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp" >
+
+      <TextView
+                android:id="@+id/forget_password_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textColor="#04ea00"
+                android:textSize="20dp"
+                android:text="not_registered?   "/>
+            <TextView
+                android:id="@+id/sign_up_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#04ea00"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/registered"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

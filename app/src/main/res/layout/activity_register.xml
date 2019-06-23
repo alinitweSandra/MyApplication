@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03c7b1"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="email"
+        android:inputType="text"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/r_email"
+        android:inputType="text"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/R_phone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="PhoneNumber"
+        android:inputType="text"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/r_password1"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/confirm_password"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Register"
+        android:inputType="text"
+        android:paddingLeft="70dp"
+        android:textColor="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/sign_in_button"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#04ea00"
+            android:paddingLeft="70dp"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

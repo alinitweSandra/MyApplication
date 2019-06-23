@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Spare Genuino</string>
+
+    <string name="password">Password</string>
+    <string name="email">email</string>
+    <string name="logIn">logIn</string>
+    <string name="not_registered">not_registered?</string>
+    <string name="registered">register</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="r_email">email</string>
+    <string name="r_password1">password</string>
+    <string name="Register">Regiter</string>
+    <string name="already_registered">already_registered?</string>
+    <string name="login">logIn</string>
+    <string name="app_label">Enter auto part</string>
+</resources>
